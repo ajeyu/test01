@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST', 'PUT', 'DELETE'])
 def forward():
-    url = 'https://test.tbn.digital'
+    url = 'https://hook.eu1.make.com/3fb10qfaswtx1aaczsaiiely7vh6dwq7'
     forward_response = requests.request(
         method=request.method,
         url=url,
